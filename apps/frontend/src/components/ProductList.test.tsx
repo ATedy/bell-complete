@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import { ProductList } from './ProductList';
-import * as api from './api';
+import * as api from '../api/api';
 
 describe('ProductList', () => {
   const mockOnAddToWishlist = vi.fn();
